@@ -1,6 +1,8 @@
-const TituloPrincipal = () => {
+const TituloPrincipal = (props) => {
+    // aca va la logica
     return (
-        <h1>Hello World!</h1>
+        // aca va el maquetado y poca logica
+        <h1>Hello {props.myFriend}!</h1>
     );
 };
 
