@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    margin: 50px;
+}
+
+button{
+    transition: 1000ms;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(229, 8, 8, 0.967);
+    color: white;
+    border: none;
+}
+button:hover{
+    transition: 1000ms;
+    background: rgba(255, 0, 0, 0.397);
+    color: black;
+}
